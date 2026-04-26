@@ -1,0 +1,77 @@
+<tr bgcolor=#F5F5F5><td width=20%>10-1</td><td>Unable to Copy</td></tr>
+<tr><td width=20%>10-2</td><td>Signals Good</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-3</td><td>Change Frequency</td></tr>
+<tr><td width=20%>10-4</td><td>Acknowledgement</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-5</td><td>Relay</td></tr>
+<tr><td width=20%>10-6</td><td>Busy, stand by</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-7</td><td>Out of Service</td></tr>
+<tr><td width=20%>10-8</td><td>In Service</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-9</td><td>Repeat last transmission</td></tr>
+<tr><td width=20%>10-10</td><td>Fight in Progress</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-12</td><td>Stand By / Stop</td></tr>
+<tr><td width=20%>10-13</td><td>Weather / Road Report</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-14</td><td>Report of prowler</td></tr>
+<tr><td width=20%>10-15</td><td>Civil disturbance</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-16</td><td>Domestic disturbance</td></tr>
+<tr><td width=20%>10-17</td><td>Meet complainant</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-18</td><td>Complete quickly</td></tr>
+<tr><td width=20%>10-19</td><td>Return to _______</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-20</td><td>What is Your Location?</td></tr>
+<tr><td width=20%>10-21</td><td>Call________ on phone</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-22</td><td>Disregard</td></tr>
+<tr><td width=20%>10-23</td><td>Arrived at scene</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-24</td><td>Assignment completed</td></tr>
+<tr><td width=20%>10-25</td><td>Report to ________</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-26</td><td>Detaining subject, expedite</td></tr>
+<tr><td width=20%>10-27</td><td>Operator' License Check</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-28</td><td>Vehicle Registration Info</td></tr>
+<tr><td width=20%>10-29</td><td>Check for wants and warrants</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-30</td><td>Emergency at station</td></tr>
+<tr><td width=20%>10-31</td><td>Crime in progress</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-32</td><td>Weapons Involved</td></tr>
+<tr><td width=20%>10-33</td><td>Emergency traffic only</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-35</td><td>Major crime alert</td></tr>
+<tr><td width=20%>10-36</td><td>Routine Traffic Stop</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-37</td><td>Suspicious vehicle/person</td></tr>
+<tr><td width=20%>10-38</td><td>Stopping suspicious vehicle</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-39</td><td>Urgent - use lights/siren</td></tr>
+<tr><td width=20%>10-40</td><td>Urgent - no lights/siren</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-41</td><td>Non-emergency, urgent</td></tr>
+<tr><td width=20%>10-42</td><td>Emergency</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-46</td><td>Assist motorist</td></tr>
+<tr><td width=20%>10-49</td><td>Traffic signal down</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-50</td><td>Vehicle accident</td></tr>
+<tr><td width=20%>10-51</td><td>Wrecker needed</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-52</td><td>Ambulance needed</td></tr>
+<tr><td width=20%>10-53</td><td>Road/traffic blocked</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-55</td><td>D.W.I.</td></tr>
+<tr><td width=20%>10-56</td><td>Intoxicated pedestrian</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-57</td><td>Hit and run</td></tr>
+<tr><td width=20%>10-60</td><td>Welfare check</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-65</td><td>Open door/window</td></tr>
+<tr><td width=20%>10-66</td><td>Message cancellation</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-68</td><td>Request back-up</td></tr>
+<tr><td width=20%>10-69</td><td>Emergency back-up</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-70</td><td>Fire call/alarm</td></tr>
+<tr><td width=20%>10-71</td><td>Advise on situation</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-77</td><td>E.T.A.</td></tr>
+<tr><td width=20%>10-79</td><td>Notify Coroner (DOS)</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-80</td><td>In custody</td></tr>
+<tr><td width=20%>10-81</td><td>Lunch, coffee, donuts</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-83</td><td>No contact</td></tr>
+<tr><td width=20%>10-84</td><td>If meeting ___ advise by ___</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-85</td><td>Late</td></tr>
+<tr><td width=20%>10-86</td><td>Transportation</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-87</td><td>Bar/security check</td></tr>
+<tr><td width=20%>10-88</td><td>Advise present Telephone #</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-89</td><td>Wrecker enroute</td></tr>
+<tr><td width=20%>10-90</td><td>Alarm in progress</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-91</td><td>Unnecessary use of radio</td></tr>
+<tr><td width=20%>10-92</td><td>Are you clear to receive</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-93</td><td>Blockage (Road Block)</td></tr>
+<tr><td width=20%>10-94</td><td>Racing/exhibition of speed</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-95</td><td>Check local record</td></tr>
+<tr><td width=20%>10-96</td><td>Mental case</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-97</td><td>No wants or warrants</td></tr>
+<tr><td width=20%>10-98</td><td>Emergency at state jail</td></tr>
+<tr bgcolor=#F5F5F5><td width=20%>10-99</td><td>(Adam) - Wanted and dangerous</td></tr>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Arkansas Municipalities</string>
+		<key>Location</key>
+		<string>Arkansas</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Ashley County Signals</key>
+			<string>AshleyCoSignals.html</string>
+			<key>Carroll County 10 Codes</key>
+			<string>CarrollCo10Codes.html</string>
+			<key>Crossett PD Codes</key>
+			<string>CrossettPDCodes.html</string>
+			<key>Franklin County Sheriff Codes</key>
+			<string>FranklinSDCodes.html</string>
+			<key>Independence County 10 Codes</key>
+			<string>IndependenceSD10Codes.html</string>
+			<key>Jonesboro 10 Codes</key>
+			<string>Jonesboro10Codes.html</string>
+			<key>Lincoln County 10 Codes</key>
+			<string>LincolnSD10Codes.html</string>
+			<key>Lincoln County Disp Codes</key>
+			<string>LincolnSDDispCodes.html</string>
+			<key>Little Rock 10 Codes</key>
+			<string>LittleRock10Codes.html</string>
+			<key>Emergency Ambulance Service Inc Signals</key>
+			<string>EASISignals.html</string>
+			<key>Emergency Ambulance Service Inc Stations</key>
+			<string>EASIStations.html</string>
+			<key>Metro EMS Signals</key>
+			<string>MEMSSignals.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Tests</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

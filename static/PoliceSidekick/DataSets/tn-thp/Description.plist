@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Tennessee Highway Patrol</string>
+		<key>Location</key>
+		<string>Tennessee</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>10 Codes</key>
+			<string>10Codes.html</string>
+			<key>Signals</key>
+			<string>Signals.html</string>
+			<key>THP Districts</key>
+			<string>Troops.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

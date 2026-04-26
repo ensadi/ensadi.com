@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Hawaii Law Enforcement</string>
+		<key>Location</key>
+		<string>Hawaii</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>HI State Sheriff 10 Codes</key>
+			<string>10Codes.html</string>
+			<key>Hawaii County Fire Dept Codes</key>
+			<string>HawaiiCountyFireCodes.html</string>
+			<key>Hawaii County Sheriff Dept Codes</key>
+			<string>HawaiiCountySheriffCodes.html</string>
+			<key>Honolulu Ambulance Codes</key>
+			<string>HonoluluAmbulance.html</string>
+			<key>Honolulu Fire Stations</key>
+			<string>HonoluluFireStations.html</string>
+			<key>Honolulu Fire Dept Codes</key>
+			<string>HonoluluFireCodes.html</string>
+			<key>Honolulu Police 10 Codes</key>
+			<string>Honolulu10Codes.html</string>
+			<key>Honolulu Police Radio Codes</key>
+			<string>HonoluluRadioCodes.html</string>
+			<key>Maui Police Codes</key>
+			<string>MauiRadioCodes.html</string>
+			<key>Maui Police 10 Codes</key>
+			<string>Maui10Codes.html</string>
+			<key>License Plate Info</key>
+			<string>LicenseTags.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

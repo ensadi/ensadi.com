@@ -1,0 +1,6 @@
+#Name|State|County|City|Department
+AL-State|Alabama|||Alabama State Troopers
+AK-State|Alaska|||Alaska State Troopers
+IN-State|Indiana|||Indiana State Police
+AL-JeffCo-Sheriff|Alabama|Jefferson||Jefferson County Sheriff's Office
+CA-SanDiego-PD|California||San Diego|San Diego Regional PD

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Alabama Municipalities</string>
+		<key>Location</key>
+		<string>Alabama</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Autauga Sheriff 10 Codes</key>
+			<string>AutaugaSD10Codes.html</string>
+			<key>Autauga County Fire Dept</key>
+			<string>AutaugaFireCodes.html</string>
+			<key>Bibb Law Enforcement Unit IDs</key>
+			<string>BibbUnitIDs.html</string>
+			<key>Birmingham PD Call Codes</key>
+			<string>BirminghamPDCallCodes.html</string>
+			<key>Blount Fire Station Numbers</key>
+			<string>BlountFireStationNumbers.html</string>
+			<key>Blount Law Enforcement Unit IDs</key>
+			<string>BlountUnitIDs.html</string>
+			<key>Decatur PD 10 Codes</key>
+			<string>DecaturPD10Codes.html</string>
+			<key>DeKalb Sheriff 10 Codes</key>
+			<string>DeKalbSD10Codes.html</string>
+			<key>Ft. Payne Police 10 Codes</key>
+			<string>DeKalbSD10Codes.html</string>
+			<key>Elmore Fire Station Numbers</key>
+			<string>ElmoreFireStationNumbers.html</string>
+			<key>Huntsville PD 10 Codes</key>
+			<string>HuntsvillePD10Codes.html</string>
+			<key>Madison PD 10 Codes</key>
+			<string>MadisonPD10Codes.html</string>
+			<key>Madison Sheriff 10 Codes</key>
+			<string>MadisonSD10Codes.html</string>
+			<key>Mobile PD 10 Codes</key>
+			<string>MobilePD10Codes.html</string>
+			<key>Mobile PD Signals</key>
+			<string>MobilePDSignals.html</string>
+			<key>Montgomery Fire Dept</key>
+			<string>MontgomeryFireCodes.html</string>
+			<key>Montgomery SD Codes</key>
+			<string>MontgomerySDCodes.html</string>
+			<key>Prattville PD 10 Codes</key>
+			<string>PrattvillePD10Codes.html</string>
+			<key>Prattville Fire Dept</key>
+			<string>AutaugaFireCodes.html</string>
+			<key>St. Clair Fire Station Numbers</key>
+			<string>StClairFireStationNumbers.html</string>
+			<key>St. Clair Law Enforcement Unit IDs</key>
+			<string>StClairUnitIDs.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>County Tag Information</key>
+			<string>CountyTags.html</string>
+			<key>Field Sobriety Tests</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

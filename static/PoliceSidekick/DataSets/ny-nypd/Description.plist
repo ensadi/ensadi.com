@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>NYPD</string>
+		<key>Location</key>
+		<string>New York City</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>10 Codes</key>
+			<string>10Codes.html</string>
+			<key>Common Abbreviations</key>
+			<string>Abbreviations.html</string>
+			<key>Mobilization Levels</key>
+			<string>Mobilizations.html</string>
+			<key>Tertiary Codes</key>
+			<string>TertiaryCodes.html</string>
+		</dict>
+	</dict>
+</plist>

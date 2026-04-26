@@ -1,0 +1,221 @@
+Indiana working:
+
+County Code #: County (County Seat)
+
+1: Adams (Decatur)
+2: Allen (Ft. Wayne)
+3: Bartholomew (Columbus)
+4: Benton (Fowler)
+5: Blackford (Hartford City)
+6: Boone (Lebanon)
+7: Brown (Nashville)
+8: Carrol (Delphi)
+9: Cass (Loganport)
+10: Clark (Jeffersonville)
+11: Clay (Brazil)
+12: Clinton (Frankfort)
+13: Crawford (English)
+14: Daviess (Washington)
+15: Dearborn (Lawrenceburg)
+16: Decatur (Greensburg)
+17: Dekalb (Auburn)
+18: Delaware (Muncie)
+19: Dubois (Jasper)
+20: Elkhart (Goshen)
+21: Fayette (Connerville)
+22: Floyd (New Albany)
+23: Fountain (Covington)
+24: Franklin (Brookville)
+25: Fulton (Rochester)
+26: Gibson (Princeton)
+27: Grant (Marion)
+28: Green (Bloomfield)
+29: Hamilton (Noblesville)
+30: Hancock (Greenfield)
+31: Harrison (Corydon)
+32: Hendricks (Dansville)
+33: Henry (New Castle)	 
+34: Howard (Kokomo)
+35: Huntington (Huntington)
+36: Jackson (Brownstown)
+37: Jasper (Rensselaer)
+38: Jay (Portland)
+39: Jefferson (Madison)
+40: Jennings (Vernon)
+41: Johnson (Franklin)
+42: Knox (Vincennes)
+43: Kosciusko (Warsaw)
+44: Lagrange (Lagrange)
+45: Lake (Crown Point)
+46: La Porte (La Porte)
+47: Lawrence (Bedford)
+48: Madison (Anderson)
+49: Marion (Indianapolis)
+50: Marshall (Plymouth)
+51: Martin (Shoals)
+52: Miami (Peru)
+53: Monroe (Bloomington)
+54: Montgomery (Crawfordsville)
+55: Morgan (Martinsville)
+56: Newton (Kentland)
+57: Noble (Albion)
+58: Ohio (Rising Sun)
+59: Orange (Paoli)
+60: Owen (Spencer)
+61: Parke (Rockville)
+62: Perry (Cannelton)
+63: Pike (Petersburg)
+64: Porter (Valpariso)
+65: Posry (Mt. Vernon)
+66: Pulaski (Winamac)	 
+67: Putnam (Greencastle)
+68: Randolph (Winchester)
+69: Ripley (Versailles)
+70: Rush (Rushville)
+71: St. Joseph (South Bend)
+72: Scott (Scottsburg)
+73: Shelby (Shelbyville)
+74: Spencer (Rockport)
+75: Starke (Knox)
+76: Steuben (Angola)
+77: Sullivan (Sullivan)
+78: Switzerland (Vevay)
+79: Tippecanoe (Lafayette)
+80: Tipton (Tipton)
+81: Union (Liberty)
+82: Vanderburgh (Evansville)
+83: Vermillion (Newport)
+84: Vigo (Terre Haute)
+85: Wabash (Wabash)
+86: Warren (Williamsport)
+87: Warrick (Boonville)
+88: Washington (Salem)
+89: Wayne (Richmond)
+90: Wells (Bluffton)
+91: White (Monticello)
+92: Whitley (Columbia City)
+93: Marion (Indianapolis)
+94: Lake (Crown Point)
+95A: Military/Special
+95B-Z: Marion (Indianapolis)
+96: Lake (Crown Point)
+97-99: Marion (Indianapolis)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+
+FEDERAL SURVEILLANCE CODED WORDS:
+Boat     =  A car                      Package  = Person in custody
+Box      =  A van                      Redballed= Stopped at red light
+Break off=  End surveillance           The "O"  = Office of person
+Flicks   =  Surveillance film                     under surveillance
+A Leg    =  Agent on foot              The "R"  = The residence
+Kennel   =  Agents office              U-IE     = A U-Turn
+Noisemaker= Body mic.                  Unit     = Vehicle
+Our Boy  =  Person under surveillace, also called our friend, or our
+            interest.  Our main interest is the primary suspect in a group
+            of persons under surveillance.
+
+=============================================================================
+
+INDIANA STATE POLICE SIGNALS:
+1   Call Your District               31  Traffic Congestion
+2   Call General Headquarters        32  Check Records (mcf, Wanted)
+3   Call State Police Radio          33  Known Burglar
+4   Report To General Headquarters   34  Possible Mental
+5   Report To Your District          35  Regular District Inspection
+6   Call telephone                   36  What Is Working Schedule Of:
+7   EMERGENCY-Serious Situation      37  Advise If There Is Anything For Me
+8   Meet                             38  There Is Nothing For You
+9   Disregard                        39  District Inspection
+10  Rush                             40  Records Indicate Subject Is Wanted
+11  Information Confidential         41  Is Lie Detector Available:
+12  Reply Via Other Than Radio       42  Is Drunkometer Available:
+13  Army Convoy                      43  Have In Possession:
+14  Plain Clothes Detail                  J1 Personnel   J2 Property
+15  Unable Broadcast Details, Security    J3 Prisoner    J4 Documents
+16  Aircraft Accident                44  Advise Traffic Conditions
+17  Grant Emergency Right-Of-Way To: 45  Give Your FCC Assigned Call
+18  Pistol Practice                  46  In Pursuit:
+19  Truck Check                      47  Escort:
+20  Car Wash                         48  Visitors Or Officials Present
+21  Car Service                      49  Platoon(s) Location Standby Alerts
+22  Car Repair                       50  Activate Riot Control Platoons
+23  Speeding Car                     55  Activity Report
+24  Vehicle And Occupants Detained   60  Narcotics/Dangerous Drugs Invl.
+25  Regular District Meeting         66  The Requested Service Not Avail.
+26  Bringing Subject(s) To Court     80  Not In File
+27  Stopping Car                     100 Emergency: Hold All But Emergency
+28  Bank Detail                                     Traffic
+29  District Meeting
+30  Special Patrol Assignment
+
+TEN CODES:
+10-1  Unable To Copy                 10-42 Ending Tour Of Duty
+10-2  Signals                        10-43 Information
+10-3  Stop Transmitting              10-44 Request Permission To Leave
+10-4  Acknowledgment                       Patrol For____________
+10-5  Relay                          10-45 Animal Carcass In Road
+10-6  Busy, Stand By Unless Urgent   10-46 Assist Motorist
+10-7  Out-Of-Service                 10-50 Accident F, PI, PD
+10-8  In Service                     10-51 Wrecker Needed
+10-9  Repeat                         10-52 Ambulance needed
+10-10 Fight In Progress              10-53 Road Blocked
+10-11 Dog Case                       10-55 Intoxicated Driver
+10-13 Weather And Road Report        10-56 Intoxicated Pedestrian
+10-14 Report Of Prowler              10-58 Direct Traffic
+10-15 Civil Disturbance              10-59 Convoy Or Escort
+10-16 Domestic Trouble               10-62 Reply To Message
+10-20 Location                       10-63 Prepare To Make Written Copy
+10-23 Arrived At Scene               10-66 Message Cancellation
+10-24 Assignment Completed           10-70 Fire Alarm
+10-26 Detaining Subject              10-71 Advise Nature of Fire
+10-27 Drivers Licence Information    10-77 ETA (estimated time of arrival)
+10-28 Vehicle Registration Info.     10-78 Need Assistance
+10-29 Check Records For Wanted       10-79 Notify Coroner
+10-30 Illegal Use Of Radio           10-82 Reserve Lodging
+10-31 Crime In Progress              10-88 Advise Telephone Number Of:
+10-34 Riot                           10-89 Bomb Threat
+10-35 Major Crime Alert              10-90 Bank Alarm
+10-36 Correct Time                   10-93 Blockade
+10-37 Investigate Suspicious Vehicle 10-94 Drag Racing
+10-38 Stopping Supicious Vehicle     10-96 Mental Subject
+10-39 Urgent-Use Lights And Siren    10-98 Prison Or Jail Break
+10-40 Silent Run-No Lights Or Siren  10-99 Records Indicated Wanted
+
+=============================================================================
+
+LIFELINE SEARCH & RESCUE CODES & SIGNALS:
+51  Alert Pres. For Standby               67  Earthquake
+52  Activate Mission                      68  Regular Meeting
+53  No Further Help Needed                69  Special Meeting
+54  Visual Contact Made                   71  Have "CB" Radio
+56  Lost/Missing Person                       (1 to 40) Make "CB"
+57  Overdue Aircraft                          Radio Contact on "CB"
+58  Tornado                                   Channel (1 to 40)
+59  Funnel Cloud                          72  Capable Of Monitoring---
+61  Trouble Unknown                           Departments Frequencies
+62  Flood                                 73  Drowning
+63  Cave-In
+64  Explosion
+65  Train Derailment
+
+CODE 1  Call By Radio
+CODE 21 General Headquarters
+CODE 22 King's Daughters Hosp--Madison, IN
+CODE 23 Athens
+CODE 29 Bedford, IN
+CODE 30 Huntington, IN

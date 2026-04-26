@@ -1,0 +1,7 @@
+#Name|Location|Icon\nFileList
+#FileList format: Description|Name
+Alaska State Troopers|Alaska|
+10 Codes|10Codes.html
+Blood Alcohol Content|BAC.html
+Field Sobriety Tests|FST.html
+Fire Emergency Services|FireServices.html

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>West Virginia State Police</string>
+		<key>Location</key>
+		<string>West Virginia</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Police Codes</key>
+			<string>Codes.html</string>
+			<key>State Police Troops</key>
+			<string>Troops.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

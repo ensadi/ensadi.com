@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>California Highway Patrol</string>
+		<key>Location</key>
+		<string>California</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>10 Codes</key>
+			<string>10Codes.html</string>
+			<key>Criminal Codes</key>
+			<string>CriminalCodes.html</string>
+			<key>CHP Codes</key>
+			<string>CHPCodes.html</string>
+			<key>CHP Offices</key>
+			<string>Offices.html</string>
+			<key>DOT 10 Codes</key>
+			<string>DOT10Codes.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

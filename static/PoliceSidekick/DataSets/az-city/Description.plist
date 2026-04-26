@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Arizona Municipalities (excl. Phoenix)</string>
+		<key>Location</key>
+		<string>Arizona</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Mesa PD Codes</key>
+			<string>MesaPDCodes.html</string>
+			<key>Mesa PD 10 Codes</key>
+			<string>MesaPD10Codes.html</string>
+			<key>Mesa PD Dispatch Codes</key>
+			<string>MesaPDDispatchCodes.html</string>
+			<key>Pima County SD 10 Codes</key>
+			<string>PimaSD10Codes.html</string>
+			<key>Pima County SD Codes</key>
+			<string>PimaSDCodes.html</string>
+			<key>Prescott PD Disp Codes</key>
+			<string>PrescottPDDispCodes.html</string>
+			<key>Tucson PD Radio Codes</key>
+			<string>TucsonPDCodes.html</string>
+			<key>Tucson PD 10 Codes</key>
+			<string>TucsonPD10Codes.html</string>
+			<key>Yavapai County SD 10 Codes</key>
+			<string>YavapaiSD10Codes.html</string>
+			<key>Yavapai County SD Signals</key>
+			<string>YavapaiSDSignals.html</string>
+			<key>Yuma PD/SD Codes and Signals</key>
+			<string>YumaCodesSignals.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

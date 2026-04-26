@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Colorado Municipalities</string>
+		<key>Location</key>
+		<string>Colorado</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Adams County Codes</key>
+			<string>AdamsCountyCodes.html</string>
+			<key>Arapahoe Sheriff Comm Center</key>
+			<string>ArapahoeSheriffCommCenter.html</string>
+			<key>Boulder City/County Codes</key>
+			<string>BoulderCodes.html</string>
+			<key>Castle Rock Police Codes</key>
+			<string>CastleRockPDCodes.html</string>
+			<key>Colorado Springs Police Codes</key>
+			<string>ColoradoSpringsPDCodes.html</string>
+			<key>Denver City/County Codes</key>
+			<string>DenverCodes.html</string>
+			<key>Douglas County Sheriff Codes</key>
+			<string>DouglasSDCodes.html</string>
+			<key>Durango Police Codes</key>
+			<string>DurangoPDCodes.html</string>
+			<key>Longmont Radio Codes</key>
+			<string>LongmontRadioCodes.html</string>
+			<key>Longmont Case Dispositions</key>
+			<string>LongmontCaseDispCodes.html</string>
+			<key>Morgan County Sheriff Codes</key>
+			<string>MorganCountySDCodes.html</string>
+			<key>Pueblo Police Codes</key>
+			<string>PuebloPoliceCodes.html</string>
+			<key>Summit County 10 Codes</key>
+			<string>SummitCounty10Codes.html</string>
+			<key>Road Condition Codes</key>
+			<string>RoadConditions.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,16 @@
+
+f = open('yo','r')
+o = open('yo1','w')
+
+i = 0
+for line in f.readlines():
+	line = line.strip().split('  ')
+	if i % 2:
+		o.write('<tr><td width=20%%>%s</td><td>%s</td></tr>\n' % ( line[0], line[1] ) )
+	else:
+		o.write('<tr bgcolor=#F5F5F5><td width=20%%>%s</td><td>%s</td></tr>\n' % ( line[0], line[1] ) )
+	i = i + 1
+
+f.close()
+o.close()
+

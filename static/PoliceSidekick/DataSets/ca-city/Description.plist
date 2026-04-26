@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>California Municipalities</string>
+		<key>Location</key>
+		<string>California</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Contra Costa County Unit Designators</key>
+			<string>ContraCostaUnitDesignator.html</string>
+			<key>Contra Costa County SD 10 Codes</key>
+			<string>ContraCostaSD10Codes.html</string>
+			<key>Antioch PD 10 Codes</key>
+			<string>ContraCostaSD10Codes.html</string>
+			<key>Concord PD 10 Codes</key>
+			<string>ContraCostaSD10Codes.html</string>
+			<key>Pleasant Hill PD 10 Codes</key>
+			<string>ContraCostaSD10Codes.html</string>
+			<key>Walnut Creek PD 10 Codes</key>
+			<string>ContraCostaSD10Codes.html</string>
+			<key>Contra Costa County SD Codes</key>
+			<string>ContraCostaSDCodes.html</string>
+			<key>Antioch PD Codes</key>
+			<string>ContraCostaSDCodes.html</string>
+			<key>Concord PD Codes</key>
+			<string>ContraCostaSDCodes.html</string>
+			<key>Pleasant Hill PD Codes</key>
+			<string>ContraCostaSDCodes.html</string>
+			<key>Walnut Creek PD Codes</key>
+			<string>ContraCostaSDCodes.html</string>
+			<key>El Dorado County SD 10 Codes</key>
+			<string>ElDoradoSD10Codes.html</string>
+			<key>El Dorado County SD Criminal Codes</key>
+			<string>ElDoradoSDCriminalCodes.html</string>
+			<key>Humboldt County SD Codes</key>
+			<string>HumboldtSDCodes.html</string>
+			<key>Humboldt County SD 10 Codes</key>
+			<string>HumboldtSD10Codes.html</string>
+			<key>Kern County EMS Codes</key>
+			<string>KernCountyEMS.html</string>
+			<key>Oakland PD Codes</key>
+			<string>OaklandPoliceCodes.html</string>
+			<key>Sacramento PD Codes</key>
+			<string>SacramentoPDCodes.html</string>
+			<key>San Francisco PD 10 Codes, etc.</key>
+			<string>SanFrancisco10Codes.html</string>
+			<key>San Francisco PD Complaint Codes</key>
+			<string>SanFranciscoComplaintCodes.html</string>
+			<key>San Mateo County SD 10 Codes</key>
+			<string>SanMateoSD10Codes.html</string>
+			<key>San Mateo County SD Codes</key>
+			<string>SanMateoSDCodes.html</string>
+			<key>San Mateo County SD Radio Prefixes</key>
+			<string>SanMateoSDPrefix.html</string>
+			<key>Santa Cruz County SD JO Codes</key>
+			<string>SantaCruzSDJOCodes.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

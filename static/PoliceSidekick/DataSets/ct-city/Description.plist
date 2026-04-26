@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Connecticut Municipalities</string>
+		<key>Location</key>
+		<string>Connecticut</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Branford Fire Dept Codes</key>
+			<string>BranfordFDCodes.html</string>
+			<key>Branford Police Dept Codes</key>
+			<string>BranfordPDCodes.html</string>
+			<key>Bridgeport Police Dept 10 Codes</key>
+			<string>BridgeportPD10Codes.html</string>
+			<key>Bridgeport Fire Dept Codes</key>
+			<string>BridgeportFDCodes.html</string>
+			<key>Cheshire Fire Dept Codes</key>
+			<string>CheshireFDCodes.html</string>
+			<key>Cromwell Police Dept Codes</key>
+			<string>MiddletownPDCodes.html</string>
+			<key>Danbury Police Dept Codes</key>
+			<string>DanburyPDCodes.html</string>
+			<key>Derby Fire Dept Codes</key>
+			<string>DerbyFDCodes.html</string>
+			<key>East Hampton Police Dept Codes</key>
+			<string>MiddletownPDCodes.html</string>
+			<key>East Haven Fire Dept Codes</key>
+			<string>EastHavenFDCodes.html</string>
+			<key>East Haven Police Dept Codes</key>
+			<string>EastHavenPDCodes.html</string>
+			<key>East Windsor Police Dept 10 Codes</key>
+			<string>EastWindsorPD10Codes.html</string>
+			<key>Ellington Rescue Codes</key>
+			<string>EllingtonRescueCodes.html</string>
+			<key>Fairfield Fire Dept Codes</key>
+			<string>FairfieldFDCodes.html</string>
+			<key>Fairfield Police Dept Codes</key>
+			<string>FairfieldPDCodes.html</string>
+			<key>Farmington Police Dept Codes</key>
+			<string>FarmingtonPDCodes.html</string>
+			<key>Guilford Fire Dept Codes</key>
+			<string>GuilfordFDCodes.html</string>
+			<key>Hamden Police Dept Codes</key>
+			<string>HamdenPDCodes.html</string>
+			<key>Hartford Police 10 Codes</key>
+			<string>HartfordPD10Codes.html</string>
+			<key>Hartford Police Clearance Codes</key>
+			<string>HartfordPDClearCodes.html</string>
+			<key>Hartford Fire Dept 10 Codes</key>
+			<string>HartfordFD10Codes.html</string>
+			<key>Litchfield County Fire Dept Codes</key>
+			<string>LitchfieldCoFDCodes.html</string>
+			<key>Middlesex County Fire Dept Codes</key>
+			<string>MiddlesexCoFDCodes.html</string>
+			<key>Middletown Police Dept Codes</key>
+			<string>MiddletownPDCodes.html</string>
+			<key>Milford Fire Dept 10 Codes</key>
+			<string>MilfordFD10Codes.html</string>
+			<key>Milford Fire Dept Codes</key>
+			<string>MilfordFDCodes.html</string>
+			<key>Milford Police Dept Codes</key>
+			<string>MilfordPDCodes.html</string>
+			<key>New Britain Police Dept Codes</key>
+			<string>NewBritainPDCodes.html</string>
+			<key>New Haven Fire Dept Codes</key>
+			<string>NewHavenFDCodes.html</string>
+			<key>New Haven Police Dept Codes</key>
+			<string>NewHavenPDCodes.html</string>
+			<key>New London County Fire Dept Codes</key>
+			<string>NewLondonCountyFDCodes.html</string>
+			<key>New London County EMS Codes</key>
+			<string>NewLondonCountyEMSCodes.html</string>
+			<key>North Haven Fire Dept Codes</key>
+			<string>NorthHavenFDCodes.html</string>
+			<key>North Haven Police Dept Codes</key>
+			<string>NorthHavenPDCodes.html</string>
+			<key>Orange Police Dept Codes</key>
+			<string>OrangePDCodes.html</string>
+			<key>Portland Police Dept Codes</key>
+			<string>MiddletownPDCodes.html</string>
+			<key>Rocky Hill Police Codes</key>
+			<string>RockyHillPD10Codes.html</string>
+			<key>Shelton Fire Dept Codes</key>
+			<string>SheltonFDCodes.html</string>
+			<key>Stamford Police Dept Codes</key>
+			<string>StamfordPDCodes.html</string>
+			<key>Stamford Fire Dept Codes</key>
+			<string>StamfordFDCodes.html</string>
+			<key>Stratford Police Dept Codes</key>
+			<string>StratfordPDCodes.html</string>
+			<key>Tolland County EMS Codes</key>
+			<string>TollandEMSCodes.html</string>
+			<key>Tolland County EMS Signals</key>
+			<string>TollandCountyEMSSignals.html</string>
+			<key>Valley Shore Emergency Codes</key>
+			<string>ValleyShoreEmergencyCodes.html</string>
+			<key>Wallingford Police Dept Codes</key>
+			<string>WallingfordPDCodes.html</string>
+			<key>Waterbury Police Dept Codes</key>
+			<string>WaterburyPDCodes.html</string>
+			<key>Waterbury Police Dept Signals</key>
+			<string>WaterburyPDSignals.html</string>
+			<key>Waterbury Fire Dept Codes</key>
+			<string>WaterburyFDCodes.html</string>
+			<key>Waterbury EMS Codes</key>
+			<string>WaterburyEMSCodes.html</string>
+			<key>West Hartford Police Dept Codes</key>
+			<string>WestHartfordPDCodes.html</string>
+			<key>West Haven Police Dept Codes</key>
+			<string>WestHavenPDCodes.html</string>
+			<key>Westport Police Dept Codes</key>
+			<string>WestportPDCodes.html</string>
+			<key>Willimantic Fire Dept Codes</key>
+			<string>WillimanticFDCodes.html</string>
+			<key>Wilton Police Dept Codes</key>
+			<string>WiltonPDCodes.html</string>
+			<key>Windsor Locks Police Dept 10 Codes</key>
+			<string>WindsorLocksPDCodes.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

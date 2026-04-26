@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Los Angeles Regional Depts</string>
+		<key>Location</key>
+		<string>California</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>Long Beach PD Penal Codes</key>
+			<string>LongBeachPDPenalCodes.html</string>
+			<key>Long Beach PD 10 Codes</key>
+			<string>LongBeachPD10Codes.html</string>
+			<key>Los Angeles SD Criminal Codes</key>
+			<string>LosAngelesSDCriminalCodes.html</string>
+			<key>Los Angeles SD 10 Codes</key>
+			<string>LosAngelesSD10Codes.html</string>
+			<key>Los Angeles Rapid Transit Codes</key>
+			<string>LARapidTransitCodes.html</string>
+			<key>Orange County SD Criminal Codes</key>
+			<string>OrangeCountySDCodes.html</string>
+			<key>Orange County SD 10 Codes</key>
+			<string>OrangeCountySD10Codes.html</string>
+			<key>Ventura County EMS Codes</key>
+			<string>VenturaCountyEMSCodes.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>

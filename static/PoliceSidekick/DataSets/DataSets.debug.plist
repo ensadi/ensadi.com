@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+	<dict>
+             	<key>Name</key>
+                <string>AL-State</string>
+                <key>State</key>
+		<string>Alabama</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Alabama State Troopers</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>AL-JeffCo-Sheriff</string>
+                <key>State</key>
+		<string>Alabama</string>
+		<key>County</key>
+		<string>Jefferson</string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Jefferson County Sheriff's Office</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>al-city</string>
+                <key>State</key>
+		<string>Alabama</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Alabama Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>AK-State</string>
+                <key>State</key>
+		<string>Alaska</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Alaska State Troopers</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ak-city</string>
+                <key>State</key>
+		<string>Alaska</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Alaska Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>az-dps</string>
+                <key>State</key>
+		<string>Arizona</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Arizona Department of Public Safety</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>az-phoenix</string>
+                <key>State</key>
+		<string>Arizona</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string>Phoenix</string>
+		<key>Department</key>
+		<string>Phoenix-Maricopa County</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>az-city</string>
+                <key>State</key>
+		<string>Arizona</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Arizona Municipalities</string>
+	</dict>
+		<dict>
+                <key>Name</key>
+                <string>ar-state</string>
+                <key>State</key>
+		<string>Arkansas</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Arkansas State Troopers</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ar-city</string>
+                <key>State</key>
+		<string>Arkansas</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Arkansas Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ca-chp</string>
+                <key>State</key>
+		<string>California</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>California Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>CA-SanDiego-PD</string>
+                <key>State</key>
+		<string>California</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string>San Diego</string>
+		<key>Department</key>
+		<string>San Diego Regional PD</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ca-city</string>
+                <key>State</key>
+		<string>California</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>California Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ca-losangeles</string>
+                <key>State</key>
+		<string>California</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string>Los Angeles</string>
+		<key>Department</key>
+		<string>Los Angeles Regional Depts</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>co-city</string>
+                <key>State</key>
+		<string>Colorado</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Colorado Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>co-csp</string>
+                <key>State</key>
+		<string>Colorado</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Colorado State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ct-city</string>
+                <key>State</key>
+		<string>Connecticut</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Connecticut Municipalities</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ct-state</string>
+                <key>State</key>
+		<string>Connecticut</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Connecticut State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>de-state</string>
+                <key>State</key>
+		<string>Delaware</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Delaware State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>fl-fhp</string>
+                <key>State</key>
+		<string>Florida</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Florida Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ga-state</string>
+                <key>State</key>
+		<string>Georgia</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Georgia State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>hi-state</string>
+                <key>State</key>
+		<string>Hawaii</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Hawaii Law Enforcement</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>id-state</string>
+                <key>State</key>
+		<string>Idaho</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Idaho State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>IN-State</string>
+                <key>State</key>
+		<string>Indiana</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Indiana State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>il-state</string>
+                <key>State</key>
+		<string>Illinois</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Illinois State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ia-state</string>
+                <key>State</key>
+		<string>Iowa</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Iowa State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ks-khp</string>
+                <key>State</key>
+		<string>Kansas</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Kansas Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ky-state</string>
+                <key>State</key>
+		<string>Kentucky</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Kentucky State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>la-state</string>
+                <key>State</key>
+		<string>Louisiana</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Louisiana State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ma-state</string>
+                <key>State</key>
+		<string>Massachusetts</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Massachusetts State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>md-state</string>
+                <key>State</key>
+		<string>Maryland</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Maryland State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>me-state</string>
+                <key>State</key>
+		<string>Maine</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Maine State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>mi-state</string>
+                <key>State</key>
+		<string>Michigan</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Michigan State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>mn-state</string>
+                <key>State</key>
+		<string>Minnesota</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Minnesota State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>mo-mhp</string>
+                <key>State</key>
+		<string>Missouri</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Missouri State Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ms-mhp</string>
+                <key>State</key>
+		<string>Mississippi</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Mississippi State Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>mt-mhp</string>
+                <key>State</key>
+		<string>Montana</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Montana Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nc-nchp</string>
+                <key>State</key>
+		<string>North Carolina</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>North Carolina Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nd-ndhp</string>
+                <key>State</key>
+		<string>North Dakota</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>North Dakota Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ne-state</string>
+                <key>State</key>
+		<string>Nebraska</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Nebraska State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nh-state</string>
+                <key>State</key>
+		<string>New Hampshire</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>New Hampshire State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nj-state</string>
+                <key>State</key>
+		<string>New Jersey</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>New Jersey State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nm-state</string>
+                <key>State</key>
+		<string>New Mexico</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>New Mexico State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>nv-dps</string>
+                <key>State</key>
+		<string>Nevada</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Nevada DPS Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ny-state</string>
+                <key>State</key>
+		<string>New York</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>New York State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>oh-ohp</string>
+                <key>State</key>
+		<string>Ohio</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Ohio Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ok-ohp</string>
+                <key>State</key>
+		<string>Oklahoma</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Oklahoma Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>or-state</string>
+                <key>State</key>
+		<string>Oregon</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Oregon State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>pa-state</string>
+                <key>State</key>
+		<string>Pennsylvania</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Pennsylvania State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ri-state</string>
+                <key>State</key>
+		<string>Rhode Island</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Rhode Island State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>sc-schp</string>
+                <key>State</key>
+		<string>South Carolina</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>South Carolina Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>sd-sdhp</string>
+                <key>State</key>
+		<string>South Dakota</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>South Dakota Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>tn-thp</string>
+                <key>State</key>
+		<string>Tennessee</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Tennessee Highway Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>tx-dps</string>
+                <key>State</key>
+		<string>Texas</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Texas Department of Public Safety</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>ut-dps</string>
+                <key>State</key>
+		<string>Utah</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Utah Department of Public Safety</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>va-state</string>
+                <key>State</key>
+		<string>Virginia</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Virginia State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>vt-state</string>
+                <key>State</key>
+		<string>Vermont</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Vermont State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>wi-state</string>
+                <key>State</key>
+		<string>Wisconsin</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Wisconsin State Patrol</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>wv-state</string>
+                <key>State</key>
+		<string>West Virginia</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>West Virginia State Police</string>
+	</dict>
+	<dict>
+                <key>Name</key>
+                <string>wy-whp</string>
+                <key>State</key>
+		<string>Wyoming</string>
+		<key>County</key>
+		<string></string>
+		<key>City</key>
+		<string></string>
+		<key>Department</key>
+		<string>Wyoming Highway Patrol</string>
+	</dict>
+    </array>
+</plist>

@@ -1,0 +1,115 @@
+#TenCodes table {
+	width: 100%;
+	font-size: 36pt;
+}
+
+#TenCodes .btable td {
+	vertical-align: top;
+}
+
+#TenCodes .atable tr:nth-child(odd) {
+	background-color: #F5F5F5;
+}
+
+#TenCodes .atable tr:nth-child(even) {
+	background-color: #FFFFFF;
+}
+
+#TenCodes .atable tbody {
+	font-size: 36pt;
+	width: 100%;
+}
+
+#TenCodes .atable td:nth-child(odd) {
+	width: 20%;
+	vertical-align: top;
+}
+
+#TenCodes .oregontable tr:nth-child(odd) {
+	background-color: #F5F5F5;
+}
+
+#TenCodes .oregontable tr:nth-child(even) {
+	background-color: #FFFFFF;
+}
+
+#TenCodes .oregontable tbody {
+	font-size: 36pt;
+	width: 100%;
+}
+
+#TenCodes .oregontable th {
+	width: 16%;
+	vertical-align: middle;
+}
+
+#BAC {
+	font-size: 36pt;
+}
+#BAC .btable table {
+	font-size: 36pt;
+}
+
+#BAC .btable tbody {
+	font-size: 36pt;
+	width: 100%;
+	vertical-align: top;
+}
+
+#BAC .btable th, td {
+	border: 1px solid black;
+}
+
+#BAC .btable td:nth-child(odd){
+	width: 50%;
+}
+
+#BAC h1{
+	font-size: 36pt;
+}
+
+#BAC h2{
+	font-size: 34pt;
+}
+
+#BAC ul {
+	list-style-type: none;
+}
+
+#BAC .ctable {
+	width: 100%;
+	border: 1px solid black;
+}
+
+#BAC .ctable td, th {
+	border: 1px solid black;
+	padding: 2px;
+	border-spacing: 2px;
+	vertical-align: top;
+}
+
+#BAC .black {
+	background-color: black;
+	color: white;
+}
+
+#BAC .gray {
+	background-color: darkgray;
+}
+
+#BAC .red{
+	background-color: red;
+	color: white;
+}
+
+#BAC .yellow {
+	background-color: yellow;
+}
+
+#BAC .orange {
+	background-color: #FF8C00;
+}
+
+#FST {
+	font-size: 36pt;
+}

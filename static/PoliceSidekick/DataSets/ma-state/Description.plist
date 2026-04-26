@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Name</key>
+		<string>Massachusetts State Police</string>
+		<key>Location</key>
+		<string>Massachusetts</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Files</key>
+		<dict>
+			<key>10 Codes</key>
+			<string>10Codes.html</string>
+			<key>Police Codes</key>
+			<string>Codes.html</string>
+			<key>Highway Signals</key>
+			<string>HighwaySignals.html</string>
+			<key>MSP Troops</key>
+			<string>Troops.html</string>
+			<key>Dept Environmental Mgmt 10 Codes</key>
+			<string>DEM10Codes.html</string>
+			<key>Blood Alcohol Content</key>
+			<string>BAC.html</string>
+			<key>Field Sobriety Test</key>
+			<string>FST.html</string>
+		</dict>
+	</dict>
+</plist>
