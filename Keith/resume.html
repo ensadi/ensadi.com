@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keith Tidwell – Resume</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 14px;
+      color: #222;
+      background: #f4f4f4;
+      padding: 40px 20px;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 48px 56px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #1a3c5e;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a3c5e;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    header .contact {
+      margin-top: 6px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    header .contact a {
+      color: #1a3c5e;
+      text-decoration: none;
+    }
+
+    header .contact a:hover { text-decoration: underline; }
+
+    /* Section */
+    section {
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #1a3c5e;
+      border-bottom: 1px solid #c8d8e8;
+      padding-bottom: 4px;
+      margin-bottom: 14px;
+    }
+
+    /* Summary */
+    .summary p {
+      line-height: 1.65;
+      color: #333;
+    }
+
+    /* Job */
+    .job { margin-bottom: 22px; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .job-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a3c5e;
+    }
+
+    .job-dates {
+      font-size: 12px;
+      color: #666;
+      white-space: nowrap;
+    }
+
+    .job-company {
+      font-size: 13px;
+      color: #444;
+      margin-top: 2px;
+      margin-bottom: 8px;
+    }
+
+    .job ul {
+      padding-left: 18px;
+    }
+
+    .job ul li {
+      margin-bottom: 5px;
+      line-height: 1.55;
+      color: #333;
+    }
+
+    /* Education */
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+
+    .edu-degree {
+      font-weight: 700;
+      color: #1a3c5e;
+      font-size: 14px;
+    }
+
+    .edu-school {
+      font-size: 13px;
+      color: #444;
+      margin-top: 2px;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 8px 16px;
+    }
+
+    .skill-tag {
+      background: #eef3f8;
+      color: #1a3c5e;
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 32px 40px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <h1>Keith Tidwell</h1>
+      <div class="contact">
+        Birmingham, AL 35209 &nbsp;|&nbsp; 205.587.3639 &nbsp;|&nbsp;
+        <a href="mailto:keithtidwell@gmail.com">keithtidwell@gmail.com</a>
+      </div>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Senior cybersecurity and software engineering professional with extensive experience building threat analytics,
+        malware detection, and network security monitoring solutions for large-scale enterprise environments. Proven
+        success developing custom dashboards, automation workflows, real-time alerting applications, and scalable
+        enterprise software that improve analyst visibility and accelerate threat response. Strong background in Python,
+        full-stack web development, threat intelligence integration, security-focused data analysis, enterprise-scale
+        system design, and AI-assisted development workflows.
+      </p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Principal Member of Technical Staff</span>
+          <span class="job-dates">December 2008 – Present</span>
+        </div>
+        <div class="job-company">AT&amp;T, Threat Analytics, Cybersecurity &mdash; Birmingham, AL</div>
+        <ul>
+          <li>Lead developer of the AT&amp;T Cyber Threat Dashboard, a threat analytics platform used by cybersecurity analysts to identify, track, and organize threats across the AT&amp;T network.</li>
+          <li>Designed and developed a Hadoop-backed backend that aggregates real-time network activity using Snort signatures, proprietary packet processing, and reconnaissance scanning detection.</li>
+          <li>Built a custom frontend to organize threats by kill chain phases, including reconnaissance, exploitation, installation, command and control, and attack, improving analyst visibility and investigation workflow.</li>
+          <li>Contributed to a platform that supported multiple real-world takedowns of ransomware operations and other malicious actors internationally.</li>
+          <li>Developed the application using Python, Flask, Bootstrap, MySQL 8, SQLAlchemy, and Jinja, with upstream data aggregation supported by Hadoop and HDFS.</li>
+          <li>Assisted in the design and development of the FLOOD Portal, a web application used by the SOC to chart and graph key indicators, attack vectors, and alarms for alerting the analyst community.</li>
+          <li>Built visualization and reporting capabilities using Python, Plotly, and Dash.</li>
+          <li>Crafted custom algorithms to detect customers infected with malware, enabling the Abuse team to support remediation efforts more effectively.</li>
+          <li>Created a custom application to pull alarms from Arbor NetScout and feed the production FLOOD Portal with real-time alerts for active DDoS attacks on the AT&amp;T network using Python and REST APIs.</li>
+          <li>Automated the generation of MISP events and attributes using reconnaissance scanning data and command-and-control malware information to support sharing of malicious activity with the cybersecurity community.</li>
+          <li>Integrated with ThreatQ to enrich metadata for common events, attributes, and tools, improving threat intelligence context and analysis.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Lead Programmer, Data Analysis &amp; Technical Assurance</span>
+          <span class="job-dates">June 2001 – December 2008</span>
+        </div>
+        <div class="job-company">BellSouth &mdash; Birmingham, AL</div>
+        <ul>
+          <li>Designed and developed a threshold reporting application that provided detailed adjustment data and approval workflow for transactions exceeding established thresholds.</li>
+          <li>Delivered drill-down reporting views across business unit, center, service representative, and individual adjustment levels to improve auditing and operational visibility.</li>
+          <li>Built reporting, scheduling, and management functionality for enterprise users, improving access to operational and financial data.</li>
+          <li>Supported domestic and international revenue assurance engagements through data analysis, reporting, and application development.</li>
+          <li>Developed a production web application for the Accounts Receivable Management (ARM) group to support accounts receivable aging analysis and business decision-making.</li>
+          <li>Engineered a write-off timeline reporting process to track customers from denial of service through write-off, improving bad debt forecasting visibility.</li>
+          <li>Created a custom airtime analysis tool for Telcel Venezuela to help identify and quantify unbilled usage.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Senior Software Engineer</span>
+        </div>
+        <div class="job-company">Ensadi LLC &mdash; Birmingham, AL</div>
+        <ul>
+          <li>Led design and development of a full-stack web application for a large-scale commerce platform, delivering scalable functionality across frontend and backend components.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu-header">
+        <span class="edu-degree">Bachelor of Science, Computer Engineering</span>
+        <span class="job-dates">May 2001</span>
+      </div>
+      <div class="edu-school">Auburn University &mdash; Auburn, AL</div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Flask</span>
+        <span class="skill-tag">Jinja</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">AJAX</span>
+        <span class="skill-tag">ASP.NET</span>
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">C / C++</span>
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">SQLite</span>
+        <span class="skill-tag">SQL Server</span>
+        <span class="skill-tag">Oracle</span>
+        <span class="skill-tag">NoSQL</span>
+        <span class="skill-tag">SQLAlchemy</span>
+        <span class="skill-tag">Hadoop / HDFS</span>
+        <span class="skill-tag">Plotly / Dash</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Snort</span>
+        <span class="skill-tag">MISP</span>
+        <span class="skill-tag">ThreatQ</span>
+        <span class="skill-tag">Arbor NetScout</span>
+        <span class="skill-tag">Threat Analytics</span>
+        <span class="skill-tag">Malware Detection</span>
+        <span class="skill-tag">DDoS Monitoring</span>
+        <span class="skill-tag">Threat Intelligence</span>
+        <span class="skill-tag">Security Automation</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Linux</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">Jira</span>
+        <span class="skill-tag">GitHub Copilot</span>
+        <span class="skill-tag">Prompt Engineering</span>
+        <span class="skill-tag">AI-Assisted Development</span>
+        <span class="skill-tag">Test-Driven Development</span>
+        <span class="skill-tag">Agile / DevOps</span>
+        <span class="skill-tag">System Architecture</span>
+        <span class="skill-tag">Full-Stack Development</span>
+        <span class="skill-tag">Technical Leadership</span>
+        <span class="skill-tag">Data Visualization</span>
+        <span class="skill-tag">Rapid Prototyping</span>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
