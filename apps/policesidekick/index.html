@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Police Sidekick - Legal reference tool for law enforcement">
+    <title>Police Sidekick</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="assets/icon-192.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="app">
+        <header id="main-header">
+            <h1>Police Sidekick</h1>
+            <button id="menu-btn" class="icon-btn" aria-label="Menu">☰</button>
+        </header>
+        
+        <nav id="main-nav" class="hidden">
+            <ul>
+                <li><a href="#/datasets" data-view="datasets">Datasets</a></li>
+                <li><a href="#/about" data-view="about">About</a></li>
+            </ul>
+        </nav>
+        
+        <main id="main-content">
+            <!-- Datasets View -->
+            <div id="view-datasets" class="view active">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search datasets...">
+                    <button id="downloaded-only-filter-button" class="btn btn-secondary filter-toggle" type="button">Downloaded + Free</button>
+                </div>
+                <div id="datasets-container">
+                    <!-- Datasets will be rendered here -->
+                </div>
+            </div>
+
+            <div id="view-dataset-detail" class="view">
+                <button class="btn btn-secondary back-btn">← Back to datasets</button>
+                <div id="dataset-detail-container">
+                    <!-- Dataset details will be rendered here -->
+                </div>
+            </div>
+
+            <div id="view-file-viewer" class="view">
+                <button class="btn btn-secondary back-btn">← Back to dataset</button>
+                <div id="file-viewer-container">
+                    <!-- File viewer will be rendered here -->
+                </div>
+            </div>
+            
+            <!-- About View -->
+            <div id="view-about" class="view">
+                <div class="card">
+                    <div class="card-header">About Police Sidekick</div>
+                    <div class="card-body">
+                        <p><strong>Version:</strong> 2.0.0</p>
+                        <p><strong>Status:</strong> <span id="app-status">Loading...</span></p>
+                        <div class="about-update-actions">
+                            <button id="check-updates-btn" class="btn btn-secondary" type="button">Check for updates</button>
+                            <button id="force-update-btn" class="btn btn-primary" type="button">Force update app</button>
+                        </div>
+                        <p id="app-update-message" class="update-info">If updates are available, the app shell will refresh automatically.</p>
+                        <hr>
+                        <p>Police Sidekick is a legal reference tool designed for law enforcement officers. This web application provides access to legal reference materials offline.</p>
+                        <hr>
+                        <p><strong>Features:</strong></p>
+                        <ul>
+                            <li>Offline access to legal reference materials</li>
+                            <li>Search datasets</li>
+                            <li>Free downloadable content</li>
+                        </ul>
+                        <hr>
+                        <p><strong>Contributing:</strong>
+                            We welcome contributions to Police Sidekick!
+                            You can help by providing feedback, reporting issues, or contributing new datasets.
+                            Please submit any contributions or issues through our <a href="https://github.com/ensadi/ensadi.com/issues">GitHub issues</a>.</p>
+                        <hr>
+                        <p><strong>Privacy:</strong> This app runs entirely in your browser. No data is sent to any server except for downloading datasets from ensadi.com.</p>
+                        <p><strong>Terms:</strong> By using this application, you agree to the terms of service at ensadi.com.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer id="main-footer">
+            <p>Police Sidekick v2.0.0</p>
+            <p id="connection-status">Online</p>
+        </footer>
+    </div>
+    
+    <script type="module" src="app.js"></script>
+</body>
+</html>
