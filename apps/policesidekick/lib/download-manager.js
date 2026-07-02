@@ -78,7 +78,7 @@ class DownloadManager {
         download.progress = ((i + 1) / datasetInfo.files.length) * 100;
         this.notifyListeners(download);
 
-        const downloadedFile = await this.downloadFile(download.id, file.name);
+        const downloadedFile = await this.downloadFile(download.id, file.name, file.label);
         download.downloadedFiles++;
         download.downloadedSize += downloadedFile.size || 0;
       }
@@ -237,7 +237,7 @@ class DownloadManager {
   }
 
   // Download a single file
-  async downloadFile(datasetId, fileName) {
+  async downloadFile(datasetId, fileName, fileLabel = null) {
     const url = `${BASE_URL}/${datasetId}/${fileName}`;
     
     try {
@@ -249,7 +249,7 @@ class DownloadManager {
       const arrayBuffer = await response.arrayBuffer();
 
       // Store downloaded file in temporary loading storage
-      await storageManager.addLoadingFile(datasetId, fileName, arrayBuffer);
+      await storageManager.addLoadingFile(datasetId, fileName, arrayBuffer, fileLabel);
 
       return { name: fileName, size: arrayBuffer.byteLength };
     } catch (error) {

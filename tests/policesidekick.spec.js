@@ -71,6 +71,13 @@ test.describe('Police Sidekick app', () => {
     await expect(page.locator('.file-viewer-header')).toContainText('Miranda Rights');
   });
 
+  test('Free file viewer header uses the dataset label', async ({ page }) => {
+    await page.goto('');
+    await page.click(`button.view-btn[data-id="${FREE_DATASET_ID}"]`);
+    await expect(page.locator('#view-file-viewer')).toBeVisible();
+    await expect(page.locator('.file-viewer-file')).toContainText('Miranda Rights');
+  });
+
   test('Download dataset from main page works', async ({ page }) => {
     await page.goto('');
     await page.click(`button.download-btn[data-id="${DATASET_ID}"]`);
@@ -101,7 +108,7 @@ test.describe('Police Sidekick app', () => {
     await expect(page.locator('button.delete-btn:visible')).toBeVisible({ timeout: 10000 });
     await page.click(`button.file-link[data-file-name="${DATASET_FILE}"]`);
     await expect(page.locator('#view-file-viewer')).toBeVisible();
-    await expect(page.locator('.file-viewer-file')).toContainText(DATASET_FILE);
+    await expect(page.locator('.file-viewer-file')).toContainText('10 Codes');
   });
 
   test('Check for dataset update works', async ({ page }) => {
