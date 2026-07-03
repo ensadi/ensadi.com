@@ -724,7 +724,7 @@ class PoliceSidekickApp {
   async loadDatasetFiles(dataset) {
     try {
       const files = await storageManager.getDatasetFiles(dataset.id);
-      dataset.files = (files || []).map((file) => ({ name: file.name, label: file.name }));
+      dataset.files = (files || []).map((file) => ({ name: file.name, label: file.label || file.name }));
       if (AppState.selectedDataset && AppState.selectedDataset.id === dataset.id) {
         this.renderDatasetDetail();
       }
@@ -769,7 +769,7 @@ class PoliceSidekickApp {
             : `<button class="btn btn-primary download-btn" data-id="${dataset.id}" data-name="${dataset.name}">Download Dataset</button>`;
 
     const fileListHtml = dataset.free
-      ? `<div class="dataset-file-list"><h3>Free file</h3><ul><li><button class="btn btn-link file-link" data-dataset-id="${dataset.id}" data-file-name="${dataset.file}">${dataset.file}</button></li></ul></div>`
+      ? `<div class="dataset-file-list"><h3>Free file</h3><ul><li><button class="btn btn-link file-link" data-dataset-id="${dataset.id}" data-file-name="${dataset.file}">${dataset.name}</button></li></ul></div>`
       : dataset.downloaded
         ? (dataset.files
           ? this.renderDatasetFilesList(dataset)
@@ -884,9 +884,12 @@ class PoliceSidekickApp {
 
       const blob = new Blob([content], { type: 'text/html' });
       const viewerUrl = URL.createObjectURL(blob);
+      const fileLabel = dataset.free
+        ? dataset.name
+        : (dataset.files || []).find((file) => file.name === fileName)?.label || fileName;
       this.fileViewerContainer.innerHTML = `
         <div class="file-viewer-header card">
-          <div class="card-header"><h2>${dataset.name}</h2><p class="file-viewer-file">${fileName}</p></div>
+          <div class="card-header"><h2>${dataset.name}</h2><p class="file-viewer-file">${fileLabel}</p></div>
         </div>
         <iframe id="file-viewer-frame" src="${viewerUrl}" sandbox="allow-same-origin allow-scripts" frameborder="0"></iframe>
       `;

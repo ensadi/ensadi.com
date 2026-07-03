@@ -228,7 +228,7 @@ class StorageManager {
   }
 
   // Add file to dataset
-  async addFile(datasetId, fileName, fileData) {
+  async addFile(datasetId, fileName, fileData, fileLabel = null) {
     const id = `${datasetId}/${fileName}`;
     
     return new Promise((resolve, reject) => {
@@ -238,6 +238,7 @@ class StorageManager {
         id: id,
         datasetId: datasetId,
         name: fileName,
+        label: fileLabel || fileName,
         data: fileData,
         addedAt: new Date().toISOString()
       };
@@ -297,7 +298,7 @@ class StorageManager {
   // ==================== Loading Store Methods ====================
 
   // Add file to loading store (temporary during download)
-  async addLoadingFile(datasetId, fileName, fileData) {
+  async addLoadingFile(datasetId, fileName, fileData, fileLabel = null) {
     const id = `zloading.${datasetId}/${fileName}`;
     
     return new Promise((resolve, reject) => {
@@ -307,6 +308,7 @@ class StorageManager {
         id: id,
         datasetId: datasetId,
         name: fileName,
+        label: fileLabel || fileName,
         data: fileData,
         addedAt: new Date().toISOString()
       };
@@ -368,7 +370,7 @@ class StorageManager {
     }
 
     const filePromises = loadingFiles.map((file) => {
-      return this.addFile(datasetId, file.name, file.data);
+      return this.addFile(datasetId, file.name, file.data, file.label);
     });
 
     await Promise.all(filePromises);
