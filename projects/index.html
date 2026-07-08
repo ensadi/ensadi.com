@@ -3,6 +3,47 @@
   <head>
     <title>Ensadi.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore Ensadi projects including custom web application development, SmartShade reservation systems, and fun engineering projects like AGSBook." />
+    <meta name="keywords" content="Ensadi projects, custom web applications, SmartShade, reservation systems, AGSBook, progressive web apps" />
+    <meta name="author" content="Ensadi LLC" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://ensadi.com/projects/" />
+    <meta property="og:title" content="Ensadi Projects" />
+    <meta property="og:description" content="See Ensadi's custom web and application development work, reservation systems, and creative projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ensadi.com/projects/" />
+    <meta property="og:image" content="https://ensadi.com/media/img/projects.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ensadi Projects" />
+    <meta name="twitter:description" content="Custom applications, reservation systems, and fun projects from Ensadi." />
+    <meta name="twitter:image" content="https://ensadi.com/media/img/projects.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Ensadi Project Categories",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Custom Web and Application Development",
+            "url": "https://ensadi.com/projects/index.html#CustomApps"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Reservation Systems",
+            "url": "https://ensadi.com/projects/index.html#Reservation"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fun Projects",
+            "url": "https://ensadi.com/projects/index.html#FunProjects"
+          }
+        ]
+      }
+    </script>
 <!--     <link href="../../media/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../media/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="../../media/css/font-awesome.min.css" rel="stylesheet">
@@ -14,15 +55,6 @@
     <link href="../media/css/ensadi.css" rel="stylesheet">
     
   </head>
-
-  <script type="text/javascript" src="../media/js/jquery-1.11.1.min.js"></script>
-  
-  
-  <script type="text/javascript">
-$("#")
-</script>
-
-
 
   <body>
   <!-- Top Navigation  -->
@@ -75,39 +107,44 @@ $("#")
     </div></center>
   </div>
 
-  <div class = "container">
+  <div class = "container services-section">
     <div class = "row">
       <center>
-      <div class = "col-md-4 projects">
-          <!-- <img class="img-responsive img-circle icon-size" src="../../media/img/mobile_icon.png"/> -->
-          <a href = "index.html#MobileApps">
-          <span class="fa-stack fa-5x">
-            <i class="fa larger rediconcolor fa-circle fa-stack-2x"></i>
-            <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-          </span></a>
-          <h3><a href = "index.html#MobileApps">Mobile Apps</a></h3>
-          <p>Explore our custom developed apps.</p>
-          <a href = "index.html#MobileApps" class = "btn btn-default">Read More</a>
-      </div>
-      <div class = "col-md-4">
-          <a href = "index.html#Web">
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card project-feature-card">
+          <a href = "index.html#CustomApps">
           <span class="fa-stack fa-5x">
             <i class="fa larger rediconcolor fa-circle fa-stack-2x"></i>
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span></a>
-          <h3><a href = "index.html#Web">Web</a></h3>
-          <p>View our recently developed websites</p>
-          <a href = "index.html#Web" class = "btn btn-default">Read More</a>
+          <h3><a href = "index.html#CustomApps">Custom Web and Application Development</a></h3>
+          <p>Purpose-built web applications, portals, and PWAs designed around the way your teams and customers work.</p>
+          <p class="feature-cta"><a href = "index.html#CustomApps" class = "btn btn-primary btn-panel">Explore Work</a></p>
+        </div>
       </div>
-      <div class = "col-md-4">
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card project-feature-card">
           <a href = "index.html#Reservation">
           <span class="fa-stack fa-5x">
             <i class="fa larger rediconcolor fa-circle fa-stack-2x"></i>
             <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
           </span></a>
           <h3><a href = "index.html#Reservation">Reservation Systems</a></h3>
-          <p>View examples of reservations systems</p>
-          <a href = "index.html#Reservation" class = "btn btn-default">Read More</a>
+          <p>SmartShade is our reservation and operations platform, built to support real-world scheduling and field workflows.</p>
+          <p class="feature-cta"><a href = "smartshade.html" class = "btn btn-primary btn-panel">View SmartShade</a></p>
+        </div>
+      </div>
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card project-feature-card">
+          <a href = "index.html#FunProjects">
+          <span class="fa-stack fa-5x">
+            <i class="fa larger rediconcolor fa-circle fa-stack-2x"></i>
+            <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+          </span></a>
+          <h3><a href = "index.html#FunProjects">Fun Projects</a></h3>
+          <p>Creative engineering work including game design resources and small experimental apps.</p>
+          <p class="feature-cta"><a href = "index.html#FunProjects" class = "btn btn-primary btn-panel">See Projects</a></p>
+        </div>
       </div>
       </center>
     </div>
@@ -115,120 +152,65 @@ $("#")
   <br>
   <!-- <hr class = "hr-red" /> -->
 
-  <!-- <div class = "container"> -->
-    <center>
-      <div id="MobileApps" class="projects-background">
-          <span class="fa-stack fa-5x span-section">
-            <i class="fa larger whiteiconcolor fa-circle fa-stack-2x"></i>
-            <i class="fa fa-mobile fa-stack-1x rediconcolor"></i>
-          </span>
-      <h2 class = "h2-white">Mobile Apps</h2>
+  <center>
+    <div id="CustomApps" class="projects-background">
+        <span class="fa-stack fa-5x span-section">
+          <i class="fa larger whiteiconcolor fa-circle fa-stack-2x"></i>
+          <i class="fa fa-laptop fa-stack-1x rediconcolor"></i>
+        </span>
+    <h2 class = "h2-white">Custom Web and Application Development</h2>
+    </div>
+  </center>
+  <div class = "container">
+    <div class = "row project-entry-card">
+      <div class = "col-md-6 projects">
+          <img class="img-responsive web-size" src="../media/img/police_sidekick.png"/>
       </div>
-      <div class = "container">
-      <div class="row">
-      <div class = "col-md-12 projects">
-          <img class="img-responsive icon-size" src="../media/img/police_sidekick.png"/>
-          <h3>Police Sidekick</h3>
-          <p>Police Sidekick is the perfect pocket guide for any police officer on duty. Available for iOS and Android devices.</p>
-      </div>
-      <hr class = "hr-red hidden-md hidden-lg"/>
+      <div class = "col-md-6 projects">
+          <h3><a href = "https://apps.ensadi.com" target="_blank" rel="noopener noreferrer">Ensadi Apps Suite</a></h3>
+          <p>A focused collection of installable web tools, including Police Sidekick, StitchKit, FOODS, and Calculator.</p>
+          <p>Our practical PWA architecture approach: offline-capable behavior, lightweight deployment, and maintainable code paths.</p>
+          <a href = "https://apps.ensadi.com" target="_blank" rel="noopener noreferrer" class = "btn btn-primary">View Apps Directory</a>
+          <a href = "https://ensadi.com/apps/policesidekick" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Open Police Sidekick</a>
+          <a href = "https://github.com/ensadi" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Browse Source Repositories</a>
       </div>
     </div>
-    </center>
     <hr class = "hr-red" />
-    <center>
-      <div id="Web" class="projects-background">
-          <span class="fa-stack fa-5x span-section">
-            <i class="fa larger whiteiconcolor fa-circle fa-stack-2x"></i>
-            <i class="fa fa-laptop fa-stack-1x rediconcolor"></i>
-          </span>
-          <h2 class = "h2-white">Web</h2>
-      </div>
-    </center>
-    <!-- <center class = "hr-red hidden-md hidden-lg"/> -->
-    <div class = "container">
-      <div class = "row">
-      <div class = "col-md-6 projects">
-          <img class="img-responsive web-size" src="../media/img/sun_coast.png"/>
-      </div>
-      <div class = "col-md-6 projects">
-          <h3><a target='#' href = "https://suncoastbeachservice.com">Suncoast Beach Service</a></h3>
-          <p>Suncoast is a custom built web application that includes eCommerce and a fully integrated iPad application for managing beach chair equipment. This web application includes a custom administrative interface for managing equipment, sales, and employees.</p>
-          <a target='#' href = "https://suncoastbeachservice.com" class = "btn btn-default">Visit</a>
-      </div>
-      </div>
-      <hr class = "hr-red" />
 
-      <div class = "row">
-      <div class = "col-md-6 projects">
-          <img class="img-responsive web-size" src="../media/img/jags.png"/>
-      </div>
-      <div class = "col-md-6 projects">
-          <h3><a target='#'>Riverchase Elementary School</a></h3>
-          <p>The school wanted a more efficient way to clear the carpool lines after school.  Ensadi was able to create a simple application that allows teachers to enter student numbers on their mobile phones at the carpool line and have their names displayed and read out loud in the waiting area.  Along with logging and reporting, this has greatly simplified the after school commotions.</p>
-      </div>
-      </div>
-      <hr class = "hr-red" />
-
-      <div class = "row">
+    <div class = "row project-entry-card">
       <div class = "col-md-6 projects">
           <img class="img-responsive web-size" src="../media/img/jeffco.png"/>
       </div>
       <div class = "col-md-6 projects">
-          <h3><a target='#' href = "https://jeffco.themadis.net">Jefferson County Sheriff's Reserves</a></h3>
-          <p>The Sheriff's Office Reserve division needed a way to keep track of hours, events, and other information, with easy to generate email announcements and reports. Ensadi was able to create a simple web app for them to handle all of their needs.</p>
+          <h3><a href = "#" target="_blank" rel="noopener noreferrer">Jefferson County Sheriff's Reserves</a></h3>
+          <p>A secure operations portal used to track reserve hours, events, and reporting workflows with efficient communication tools for field and administrative users.</p>
       </div>
-      </div>
-      <hr class = "hr-red" />
+    </div>
+    <hr class = "hr-red" />
 
-      <div class = "row">
+    <div class = "row project-entry-card">
       <div class = "col-md-6 projects">
           <img class="img-responsive web-size" src="../media/img/pi.png"/>
       </div>
       <div class = "col-md-6 projects">
-          <h3><a target='#' href = "https://paradiseisleresort.com">Paradise Isle Resort</a></h3>
-          <p>Paradise Isle Resort needed a landing page for their customers that also included a password protected Owner Portal section for the condo owners.  Ensadi created a simple design with a backend that allows owners to view information pertaining to their units, annoucements, and special documents.</p>
+          <h3><a href = "https://paradiseisleresort.com" target="_blank" rel="noopener noreferrer">Paradise Isle Resort</a></h3>
+          <p>A custom website and owner portal experience that supports customer visibility while keeping owner resources private, manageable, and easy to update.</p>
       </div>
-      </div>
-      <hr class = "hr-red" />
+    </div>
+    <hr class = "hr-red" />
 
-      <div class = "row">
-      <div class = "col-md-6 projects">
-      <img class="img-responsive web-size" src="../media/img/eligold.png"/>
-      </div>
-      <div class = "col-md-6 projects">
-          <h3><a target="#" href = "http://eligold.com">Eli Gold</a></h3>
-          <p>Eli Gold is best known as the radio voice for the Alabama Crimson Tide. He has also been the host of NASCAR live. He needed an updated website for keeping up with his travels and communicating with his fans.</p>
-          <a target="#" href = "http://eligold.com" class = "btn btn-default">Visit</a>
-      </div>
-      </div>
-      <hr class = "hr-red" />
-
-      <div class = "row">
-      <div class = "col-md-6 projects">
-          <img class="img-responsive web-size" style="height:300px;" src="../media/img/StitchKitSS.png"/>
-      </div>
-      <div class = "col-md-6 projects">
-          <h3><a target='#'>Stitch Kit - Techniques for Knitters</a></h3>
-          <p>Our local knitting group asked us to create an app that shows them some popular knitting techniques.  They wanted something that would work offline.  Ensadi created a simple progressive web app so it would work on all devices and cache its pages locally.</p>
-          <a target="#" href = "https://stitchkit.ensadi.com/" class = "btn btn-default">Visit from your mobile device</a>
-      </div>
-      </div>
-      <hr class = "hr-red" />
-
-      <div class = "row">
+    <div class = "row project-entry-card">
       <div class = "col-md-6 projects">
           <img class="img-responsive web-size" src="../media/img/uds.png"/>
       </div>
       <div class = "col-md-6 projects">
-          <h3><a target='#' href = "https://universaldoorsystems.com/">Universal Door Systems Inc</a></h3>
-          <p>With over 30 years of experience, Universal Door Systems Inc. has serviced and repaired all types of commercial doors and entryways, and they wanted a fresh website for today's internet.  Ensadi was able to provide a custom-built and responsive site exactly how they wanted it.</p>
-          <a target='#' href = "https://universaldoorsystems.com/" class = "btn btn-default">Visit</a>
+          <h3><a href = "https://universaldoorsystems.com/" target="_blank" rel="noopener noreferrer">Universal Door Systems Inc</a></h3>
+          <p>A modern responsive business website built to support a long-established service company with clear communication, strong mobile usability, and straightforward content management.</p>
+          <a href = "https://universaldoorsystems.com/" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Visit Site</a>
       </div>
-      </div>
-
-    <!-- </center> -->
     </div>
+  </div>
+
     <center>
       <div id="Reservation" class="projects-background">
           <span class="fa-stack fa-5x span-section">
@@ -239,19 +221,61 @@ $("#")
       </div>
     </center>
     <div class="container">
-      <div class = "row">
+      <div class = "row project-entry-card">
         <div class = "col-md-6 projects">
             <img class="img-responsive web-size" src="../media/img/sun_coast.png"/>
         </div>
         <div class = "col-md-6 projects">
-            <h3><a href = "https://suncoastbeachservice.com">Suncoast Beach Service</a></h3>
-            <p>Suncoast is a custom built web application that includes eCommerce and a fully integrated iPad application for managing beach chair equipment. This web application includes a custom administrative interface for managing equipment, sales, and employees.</p>
-            <!-- <a href = "https://suncoastbeachservice.com" class = "btn btn-default">Suncoast Beach Service</a> -->
+            <h3><a href = "smartshade.html">SmartShade Reservation Platform</a></h3>
+            <p>SmartShade is a reservation and operations platform designed for rental and service workflows, including scheduling, checkout, reporting, and admin tools.</p>
+            <p>Suncoast Beach Service is one client implementation of SmartShade, with production workflows tailored to beach operations.</p>
+            <a href = "smartshade.html" class = "btn btn-primary">View SmartShade Details</a>
+            <a href = "https://suncoastbeachservice.com" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Client Site (Suncoast)</a>
         </div>
       </div>
       <hr class = "hr-red" />
     </div>
-  <!-- </div> -->
+
+    <center>
+      <div id="FunProjects" class="projects-background">
+          <span class="fa-stack fa-5x span-section">
+            <i class="fa larger whiteiconcolor fa-circle fa-stack-2x"></i>
+            <i class="fa fa-gamepad fa-stack-1x rediconcolor"></i>
+          </span>
+          <h2 class = "h2-white">Fun Projects</h2>
+      </div>
+    </center>
+    <div class="container">
+      <div class = "row project-entry-card">
+        <div class = "col-md-12 projects text-left">
+            <h3><a href = "https://ensadi.github.io/AGSBook/" target="_blank" rel="noopener noreferrer">AGSBook: Game Design with AGS</a></h3>
+            <p>An open online book focused on game design with Adventure Game Studio, written and maintained as an mdBook project for readers and contributors.</p>
+            <a href = "https://ensadi.github.io/AGSBook/" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Read AGSBook</a>
+            <a href = "https://github.com/ensadi/AGSBook" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Source</a>
+        </div>
+      </div>
+      <hr class = "hr-red" />
+
+      <div class = "row project-entry-card">
+        <div class = "col-md-12 projects text-left">
+            <h3>Adventure Game Studio Examples</h3>
+            <p>Sample game projects built with AGS and published as companion material, teaching references, and creative experiments.</p>
+            <a href = "https://github.com/ensadi/FoxysQuest" target="_blank" rel="noopener noreferrer" class = "btn btn-default">FoxysQuest</a>
+            <a href = "https://github.com/ensadi/SammysQuest" target="_blank" rel="noopener noreferrer" class = "btn btn-default">SammysQuest</a>
+        </div>
+      </div>
+      <hr class = "hr-red" />
+
+      <div class = "row project-entry-card">
+        <div class = "col-md-12 projects text-left">
+            <h3>Small Experiments and Utility PWAs</h3>
+            <p>FOODS and PWA Calculator are lightweight examples of practical, focused web applications that prioritize speed, offline reliability, and simple architecture choices.</p>
+            <a href = "https://foods.ensadi.com" target="_blank" rel="noopener noreferrer" class = "btn btn-default">FOODS</a>
+            <a href = "https://calc.ensadi.com" target="_blank" rel="noopener noreferrer" class = "btn btn-default">Calculator</a>
+        </div>
+      </div>
+      <hr class = "hr-red" />
+    </div>
 
 
 
@@ -435,21 +459,7 @@ Keith is a software developer who enjoys building front end interfaces that are 
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="../media/js/jquery-1.11.1.min.js"></script>
   <script src="../media/js/bootstrap.min.js"></script>
-  <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
-    <script type='text/javascript'>
-    $(function() {
-      // alert('js working');
-      // $('#footer_body').on('show', function () {
-      //   alert ('show');
-      //   $("html, body").animate({ scrollTop: $(document).height() }, "slow");
-      // });
-      $('#login').on('click', function (){
-        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
-        // alert ('clicked');
-      });
-    });
-  </script>
   </body>
 </html>
