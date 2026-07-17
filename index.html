@@ -47,15 +47,6 @@
     <link href="media/css/ensadi.css" rel="stylesheet">
     
   </head>
-
-  <script type="text/javascript" src="media/js/jquery-1.11.1.min.js"></script>
-  
-  <script type="text/javascript">
-$("#")
-</script>
-
-
-
   <body>
   <!-- Top Navigation  -->
   <div class = "navbar navbar-default navbar-static-top">
@@ -100,30 +91,31 @@ $("#")
     <div id="myCarousel" data-interval="10000" data-ride="carousel">
 
         <div class="active item">
-            <br><br><br>
           <!-- <span class="fa-stack fa-5x">
             <i class="fa larger fa-hand-peace-olarger flask fa-border pull-right">&nbsp; Ensadi </i>
           </span> -->
         <div class = "col-md-12 projects">
             <img class="img-responsive web-size" src="media/img/Ensadi-GlossyColor.png"/>
         </div>
-            <div >       
+            <div class="hero-content">       
                 <p class="h2-white">A digital solutions company </p>
-                <p>
-                <a href = "index.html#about" class = "btn btn-default" data-toggle="modal">About Us</a>
-                </p>
+              <p class="hero-actions">
+              <a href = "projects/index.html" class = "btn btn-primary btn-hero">View Projects</a>
+              <a href = "index.html#about" class = "btn btn-default btn-hero" data-toggle="modal">About Us</a>
+              </p>
 
             </div>
         </div>
 
 
-    </div></center>
+    </div>
   </div>
   <br>
-  <div class = "container">
+  <div class = "container services-section">
   <center>
     <div class = "row">
-      <div class = "col-md-4">
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card">
         <a href = "index.html#rwd" data-toggle="modal">
           <span class="fa-stack fa-5x">
             <i class="fa larger blueiconcolor fa-circle fa-stack-2x"></i>
@@ -131,29 +123,34 @@ $("#")
           </span>
         </a>
           
-          <h3><a href = "index.html#" data-toggle="modal">Responsive Websites and Web Applications</a></h3>
-		  <p>Responsive web design (RWD) is a web design approach that ensures your website looks great on any device, from smartphones and tablets to laptops and desktops. With RWD, your website will automatically adjust its layout and content to fit the screen it's being viewed on, so you can be sure that your visitors will have a great experience no matter what device they're using.<p>Web applications are software applications that are accessed through a web browser. They are similar to desktop applications in that they can be used to perform a variety of tasks, but they are different in that they are stored on a remote server and accessed over the internet. Web applications are becoming increasingly popular as more and more people use the internet to access information and services.</p>
-          
+          <h3><a href = "index.html#rwd" data-toggle="modal">Build Once. Reach Every Screen.</a></h3>
+      <p>We ship fast, mobile-first web experiences that feel native across devices. Your customers get a consistent, high-quality experience everywhere.</p>
+      <p class="feature-cta"><a href = "projects/index.html" class="btn btn-primary btn-panel">See Live Apps</a></p>
+        </div>
       </div>
-      <div class = "col-md-4">
-        <a href = "projects/index.html#Reservation">
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card">
+        <a href = "projects/smartshade.html">
           <span class="fa-stack fa-5x">
             <i class="fa larger blueiconcolor fa-circle fa-stack-2x"></i>
             <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
           </span></a>
-          <h3><a href = "projects/index.html">Custom Applications and Systems</a></h3>
-		  <p>Our team can build customized applications and large systems that allow you to access and create transactions from any device. Our proprietary software can be used to create real-time transactions across all platforms. Furthermore, our team has the experience to build custom reporting that meets any business's management needs.<p><h4><a href = "projects/index.html">Visit our Projects page to learn more.</a></h4></p>
-          
+          <h3><a href = "projects/smartshade.html">SmartShade: Reservation Systems That Fit Your Workflow</a></h3>
+      <p>See how we translate complex scheduling and field operations into clear, purpose-built software teams can run with confidently.</p>
+      <p class="feature-cta"><a href = "projects/smartshade.html" class="btn btn-primary btn-panel">Explore SmartShade</a></p>
+        </div>
       </div>
-      <div class = "col-md-4">
+      <div class = "col-md-4 feature-col">
+        <div class="feature-card">
         <a href = "index.html#pci" data-toggle="modal">
           <span class="fa-stack fa-5x">
             <i class="fa larger blueiconcolor fa-circle fa-stack-2x"></i>
             <i class="fa fa-shield fa-stack-1x fa-inverse"></i>
           </span></a>
-          <h3><a href = "index.html#pci" data-toggle="modal">Security and PCI Compliance</a></h3>
-          <p>We take advantage of industry leading software to help identify and close any known security holes. Our team has a background in information security, so rest assured that we always strive to protect your information. We will never access, use, or sell your information without your consent. We are committed to PCI compliance and take all necessary steps to protect your data.</p>
-          <a href = "index.html#pci" data-toggle="modal" class = "btn btn-default">What is PCI</a>
+          <h3><a href = "index.html#pci" data-toggle="modal">Security Built In, Not Bolted On</a></h3>
+          <p>We use privacy-aware architecture, secure defaults, and offline-capable patterns when they fit your use case. Our approach is to reduce data exposure while keeping your app usable and maintainable.</p>
+          <p class="feature-cta"><a href = "index.html#pci" data-toggle="modal" class="btn btn-primary btn-panel">Learn About Our Approach</a></p>
+        </div>
       </div>
     </div>
     </center>
@@ -289,30 +286,23 @@ Keith is a software developer who enjoys building front end interfaces that are 
               <i class="fa fa-4x fa-shield blueiconcolor"></i>
             </div>
             <div class = "col-md-10">
-              <h3>PCI Compliance</h3>
+              <h3>Security Built In</h3>
             </div>
           </div>
-        </div>
-        <div class = "modal-body">
-          <p class = "lead">What is PCI</p>
-		  <p>The Payment Card Industry Data Security Standard (PCI DSS) is a set of standards that businesses must follow in order to protect cardholder data.</p>
-
-<p>It was created by the Payment Card Industry Security Standards Council (PCI SSC), which is a joint effort by Visa, MasterCard, American Express, Discover Financial Services, and JCB.</p>
-
-<p>The PCI DSS covers a wide range of topics, including:</p>
-
-<ul>
-    <li>Data security</li>
-    <li>Data encryption</li>
-    <li>Security policies and procedures</li>
-    <li>Employee training</li>
-    <li>Security assessments</li>
-</ul>
-
-<p>Compliance with the PCI DSS is mandatory for businesses that accept credit and debit cards. Businesses that are not compliant with the PCI DSS may face fines, penalties, and other sanctions.</p>
-        </div>
-        <div class = "modal-footer">
-          <button type="cancel" class="btn btn-primary" data-dismiss = "modal">Close</button>
+          <div class = "modal-body">
+            <p class = "lead">We design systems with security and privacy in mind from day one.</p>
+            <p>Our approach starts with secure defaults, practical access controls, and architecture that minimizes unnecessary data exposure. We focus on reducing risk while keeping your application fast, reliable, and easy to use.</p>
+            <p class = "lead">How this helps your team</p>
+            <ul>
+              <li>Privacy-aware design decisions throughout the project lifecycle</li>
+              <li>Offline-capable patterns for resilience when connectivity is limited</li>
+              <li>Compliance-minded implementation choices based on your needs</li>
+            </ul>
+            <p>Whether you are modernizing an existing system or launching something new, we build solutions that support long-term trust and maintainability.</p>
+          </div>
+          <div class = "modal-footer">
+            <button type="cancel" class="btn btn-primary" data-dismiss = "modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
@@ -340,21 +330,8 @@ Keith is a software developer who enjoys building front end interfaces that are 
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="media/js/jquery-1.11.1.min.js"></script>
   <script src="media/js/bootstrap.min.js"></script>
   <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
-    <script type='text/javascript'>
-    $(function() {
-      // alert('js working');
-      // $('#footer_body').on('show', function () {
-      //   alert ('show');
-      //   $("html, body").animate({ scrollTop: $(document).height() }, "slow");
-      // });
-      $('#login').on('click', function (){
-        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
-        // alert ('clicked');
-      });
-    });
-  </script>
   </body>
 </html>
